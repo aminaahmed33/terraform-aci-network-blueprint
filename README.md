@@ -28,6 +28,7 @@ This design represents a basic Cisco ACI application network blueprint:
 
 ## Terraform Execution
 
+### Terraform Apply
 This shows the actual deployment of the infrastructure using Terraform.
 
 <p align="center">
@@ -127,3 +128,9 @@ This project demonstrates:
 - All credentials and IPs shown are from a lab environment
 - No production systems are exposed
 - Sensitive files are excluded using .gitignore
+
+---
+## Author
+
+**Amina Ahmed**
+Packet Core & IP Network Engineer | Network Automation Enthusiast
