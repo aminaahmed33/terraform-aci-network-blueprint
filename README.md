@@ -58,8 +58,6 @@ The following screenshots show the deployed resources in Cisco APIC after applyi
   <img src="images/aci-app.png" width="800"/>
 </p>
 
-### Application Profile and EPGs
-
 <p align="center">
   <img src="images/aci-epgs.png" width="800"/>
 </p>
