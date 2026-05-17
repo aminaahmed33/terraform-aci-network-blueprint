@@ -58,10 +58,6 @@ The following screenshots show the deployed resources in Cisco APIC after applyi
   <img src="images/aci-app.png" width="800"/>
 </p>
 
-<p align="center">
-  <img src="images/aci-epgs.png" width="800"/>
-</p>
-
 These screenshots validate that the configuration has been successfully applied and is visible in the APIC GUI.
 
 ---
