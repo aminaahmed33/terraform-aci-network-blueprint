@@ -38,6 +38,18 @@ The output confirms that all ACI resources were successfully created, including 
 
 ---
 
+### Terraform Destroy
+
+This demonstrates the teardown of the deployed infrastructure, ensuring that all resources can be cleanly removed.
+
+<p align="center">
+  <img src="images/terraform-destroy.png" width="800"/>
+</p>
+
+The destroy output confirms that all resources created by Terraform were successfully deleted, validating full lifecycle management of the infrastructure.
+
+---
+
 ## Cisco ACI Deployment
 
 The following screenshots show the deployed resources in Cisco APIC after applying Terraform.
@@ -70,6 +82,7 @@ This project was validated using multiple steps to ensure consistency between th
 - Terraform apply results to confirm successful resource creation
 - Cisco APIC GUI verification to ensure all objects (Tenant, VRF, Bridge Domain, EPGs, and Contracts) are correctly instantiated
 - Cross-check between Terraform state and ACI fabric configuration
+- Terraform destroy output to verify clean removal of all resources
 
 This ensures that the defined configuration accurately reflects the deployed network state.
 
